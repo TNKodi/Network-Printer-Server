@@ -40,3 +40,8 @@ This guide walks you through turning a Raspberry Pi into a networked â€œprinterâ
    ```bash
    sudo apt update
    sudo apt upgrade -y
+
+2. **Install Cups
+   ```bash
+   sudo apt install -y cups
+
