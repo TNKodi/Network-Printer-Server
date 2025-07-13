@@ -44,4 +44,14 @@ This guide walks you through turning a Raspberry Pi into a networked â€œprinterâ
 2. **Install Cups**
    ```bash
    sudo apt install -y cups
+3. Add your user to the lpadmin group
+   ```bash
+   sudo usermod -a -G lpadmin pi
+4. Verify CUPS service is running
+  ```bash
+   sudo systemctl status cups
 
+
+
+
+  
